@@ -19,3 +19,4 @@ Consignas:
 9_Si cada $ 1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos 2x, ¿cuántos puntos tendría cada cliente? Nota: Solo los clientes que son miembros reciben puntos al comprar artículos
 
 10_En la primera semana después de que un cliente se une al programa (incluida la fecha de ingreso), gana el doble de puntos en todos los artículos, no solo en sushi. ¿Cuántos puntos tienen los clientes A y B a fines de enero?
+![image](https://github.com/HernanHonorato/Data_Analysis_SQL/assets/170138768/a291afa1-0b77-4c77-bcc4-1ab89f1953e5)
