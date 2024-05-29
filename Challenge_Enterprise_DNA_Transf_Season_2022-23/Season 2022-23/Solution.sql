@@ -1,5 +1,6 @@
-1.Requerimientos a responder: 
+1.Questions to be answered: 
 
+ --NOTE: It's very important to remark, when the function "Group by" is used, "the field" which is grouped, must be included in the Select as well
 
 a) Jugador más joven por país y  Jugador más veterano por país.
 
