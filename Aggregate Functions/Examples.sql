@@ -1,6 +1,6 @@
---1) Ejemplo Aggregate Window Functions
---La siguiente consulta devuelve el nombre del producto, el precio, el nombre del grupo de productos, junto con los precios promedio de cada grupo de productos.
+--1) Example of Aggregate Window Functions
 
+--"The following query returns the product name, the price, the product group name, along with the average prices of each product group."
 SELECT
 	product_name,
 	price,
