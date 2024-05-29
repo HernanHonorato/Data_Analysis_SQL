@@ -10,9 +10,8 @@ FROM
 	products p 
 	INNER JOIN product_groups pg ON p.group_id = pg.group_id;
 
---2) Ejemplo Ranking Window Functions
---Esta consulta selecciona el nombre del producto, el nombre del grupo Y el precio del producto y calcula el ranking de los productos dentro de cada grupo basado en el precio ordenado de forma descendente.
-
+--2) Example of Ranking Window Functions
+--"This query selects the product name, the group name, and the product price, and calculates the ranking of the products within each group based on the price ordered in descending order."
 SELECT
 	product_name,
 	group_name,
@@ -23,8 +22,8 @@ FROM
 	products p 
 	INNER JOIN product_groups pg ON p.group_id = pg.group_id;
 
---3) Ejemplo con FIRST_VALUE 
---La siguiente consulta utiliza FIRST_VALUE() para devolver el precio más bajo para cada grupo de productos.
+--3) Example with FIRST_VALUE 
+--"The following query uses FIRST_VALUE() to return the lowest price for each product group."
 
 SELECT
 	product_name,
