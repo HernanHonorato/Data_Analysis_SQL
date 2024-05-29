@@ -35,7 +35,7 @@
 
 15. What is the best-selling product for each segment?
     
-Tener en cuenta:
+To be considered in you calculations:
 - Net Sales: it must be deducted the column "descuento"
 - Gross Sales: without column "descuento"
 
