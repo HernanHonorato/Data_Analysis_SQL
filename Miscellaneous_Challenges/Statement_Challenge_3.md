@@ -40,6 +40,7 @@ This is the same question as problem #32 in the SQL Chapter of Ace the Data Scie
 Assume you're given a table containing information about Wayfair user transactions for different products. Write a query to calculate the year-on-year growth rate for the total spend of each product, grouping the results by product ID.
 
 The output should include the year in ascending order, product ID, current year's spend, previous year's spend and year-on-year growth percentage, rounded to 2 decimal places.
+![image](https://github.com/HernanHonorato/Data_Analysis_SQL/assets/170138768/160479d1-77de-4b20-b86f-11b367338578)
 
 user_transactions Table:
 Column Name	Type
