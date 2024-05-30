@@ -6,7 +6,7 @@ Organization:-Wayfair
 Level of difficulty: -Hard
 Source:-Ankit Bansal sir Live Bootcamp (March 2024) Go from Zero to Hero assignment & DataLemur 🐒 (Ace the SQL & Data Interview)
 
-Problem Statement:-
+# Problem Statement:-
 Assume you're given a table containing information about Wayfair user transactions for different products. 
 ..
 Write a query to calculate the year-on-year growth rate for the total spend of each product, grouping the results by product ID.
