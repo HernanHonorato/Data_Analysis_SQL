@@ -26,16 +26,15 @@ The_inner_subquery :
  WITH product_yearwise_spending_cte AS 
  (SELECT EXTRACT(year
  FROM transaction_date) AS year,product_id,spend AS current_year_spend, LAG(spend,1) OVER(PARTITION BY product_id
- ORDER BY EXTRACT(year
- FROM transaction_date)ASC ) AS prev_year_spend
+ ORDER BY EXTRACT(year 
+                FROM transaction_date)ASC ) AS prev_year_spend
  FROM user_transactions )
 
 The_outer_query/Main query:
 
  SELECT *,
- ROUND((current_year_spend-prev_year_spend)*100/prev_year_spend,
- 2) AS yoy_rate
-FROM product_yearwise_spending_cte; 
+ ROUND((current_year_spend-prev_year_spend)*100/prev_year_spend,2) AS yoy_rate
+ FROM product_yearwise_spending_cte; 
 
 This is the same question as problem #32 in the SQL Chapter of Ace the Data Science Interview!
 
