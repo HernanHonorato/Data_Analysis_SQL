@@ -1,3 +1,11 @@
+![image](https://github.com/HernanHonorato/Data_Analysis_SQL/assets/170138768/fac28f62-e43e-48ae-98d4-3c42caa48eb1)
+
+
+![Uploading image.png…]()
+
+
+
+
 Y-on-Y Growth Rate [Wayfair SQL Interview Question]
 
 Hello Data Enthusiasts!
