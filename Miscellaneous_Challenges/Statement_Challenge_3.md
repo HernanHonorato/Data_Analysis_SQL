@@ -1,7 +1,8 @@
 ![image](https://github.com/HernanHonorato/Data_Analysis_SQL/assets/170138768/fac28f62-e43e-48ae-98d4-3c42caa48eb1)
 
+![image](https://github.com/HernanHonorato/Data_Analysis_SQL/assets/170138768/d7d8a743-0fa1-4a63-bf91-2e9c3d340989)
 
-![Uploading image.png…]()
+
 
 
 
