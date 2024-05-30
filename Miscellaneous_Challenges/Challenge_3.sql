@@ -2,11 +2,11 @@ Y-on-Y Growth Rate [Wayfair SQL Interview Question]
 
 Hello Data Enthusiasts!
 
-Organization:-Wayfair
-Level of difficulty: -Hard
+Organization: Wayfair
+Level of difficulty: Hard
 Source:-Ankit Bansal sir Live Bootcamp (March 2024) Go from Zero to Hero assignment & DataLemur 🐒 (Ace the SQL & Data Interview)
 
-Problem Statement:-
+Problem Statement:
 Assume you're given a table containing information about Wayfair user transactions for different products. 
 ..
 Write a query to calculate the year-on-year growth rate for the total spend of each product, grouping the results by product ID.
@@ -19,9 +19,9 @@ Question Link: https://lnkd.in/dE8_jJ2i
 ..
 Used Advanced Concepts : CTE & Window functions
 ..
-🔍SQL Query:
+SQL Query:
  
-hashtag#The_inner_subquery :
+The_inner_subquery :
 WITH product_yearwise_spending_cte AS 
  (SELECT EXTRACT(year
  FROM transaction_date) AS year,product_id,spend AS current_year_spend, LAG(spend,1) OVER(PARTITION BY product_id
@@ -30,7 +30,8 @@ WITH product_yearwise_spending_cte AS
  FROM user_transactions )
 
 hashtag#The_outer_query/Main query:
-SELECT *,
+
+ SELECT *,
  ROUND((current_year_spend-prev_year_spend)*100/prev_year_spend,
  2) AS yoy_rate
 FROM product_yearwise_spending_cte; 
@@ -53,13 +54,15 @@ transaction_id	product_id	spend	transaction_date
 1423	123424	1000.20	12/31/2020 12:00:00
 1623	123424	1246.44	12/31/2021 12:00:00
 1322	123424	2145.32	12/31/2022 12:00:00
-Example Output:
+
+ Example Output:
 year	product_id	curr_year_spend	prev_year_spend	yoy_rate
 2019	123424	1500.60	NULL	NULL
 2020	123424	1000.20	1500.60	-33.35
 2021	123424	1246.44	1000.20	24.62
 2022	123424	2145.32	1246.44	72.12
-Explanation:
+
+ Explanation:
 Product ID 123424 is analyzed for multiple years: 2019, 2020, 2021, and 2022.
 
 In the year 2020, the current year's spend is 1000.20, and there is no previous year's spend recorded (indicated by an empty cell).
