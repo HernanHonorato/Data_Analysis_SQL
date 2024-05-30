@@ -66,3 +66,4 @@ In the year 2020, the current year's spend is 1000.20, and there is no previous 
 In the year 2021, the current year's spend is 1246.44, and the previous year's spend is 1000.20.
 In the year 2022, the current year's spend is 2145.32, and the previous year's spend is 1246.44.
 To calculate the year-on-year growth rate, we compare the current year's spend with the previous year's spend.For instance, the spend grew by 24.62% from 2020 to 2021, indicating a positive growth rate.
+![image](https://github.com/HernanHonorato/Data_Analysis_SQL/assets/170138768/8709db0f-2858-44fb-938a-bdc5b5ddbe49)
